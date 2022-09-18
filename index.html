@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Img</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      .container {
+        display: flex;
+      }
+      .cat,
+      .dog {
+        width: 300px;
+        height: 400px;
+        color: white;
+        background-color: tomato;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      img {
+        min-width: 300px;
+        min-height: 400px;
+      }
+      .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .btn-cat,
+      .btn-dog {
+        color: white;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        background-color: blue;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 10px 0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cat">Randoum Cats</div>
+      <div class="dog">Randoum Dogs</div>
+    </div>
+    <div class="btns">
+      <div class="btn-cat">Get Cat</div>
+      <div class="btn-dog">Get Dog</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
